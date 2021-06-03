@@ -4,28 +4,20 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 
-<<<<<<< HEAD:Server/Config/app.ts
-import indexRouter from '../Routes/index';
-=======
 import indexRouter from './routes/index';
->>>>>>> parent of 114b18a... Testing Connection:app.ts
 const app = express();
 export default app; //app will be the default
 
 // view engine setup
-<<<<<<< HEAD:Server/Config/app.ts
-app.set('views', path.join(__dirname, '../Views'));
-=======
 app.set('views', path.join(__dirname, 'views'));
->>>>>>> parent of 114b18a... Testing Connection:app.ts
 app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, '../../Client')));
-app.use(express.static(path.join(__dirname, "../../node_modules")));
+app.use(express.static(path.join(__dirname, 'Client')));
+app.use(express.static(path.join(__dirname, "node_modules")));
 
 app.use('/', indexRouter);
 
