@@ -1,0 +1,30 @@
+/*CSS Goes here*/
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .centerIMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .centerIMG1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+  .graybackground {
+    background-color: lightgray;
+  }
+  .paragraphindent{
+      text-indent: 27px;
+  }
+  .rightimg {
+      float: right;
+    width: 300px;
+    height: auto;
+    padding: 0 10px 0 0;
+  }

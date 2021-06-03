@@ -29,5 +29,5 @@ router.get('/services', function (req, res, next)
 /*Get Contact Page*/
 router.get('/contact', function (req, res, next)
 {
-  res.render('index', {title: "Contact Us", page: 'contact'});
+  res.render('contactus', {title: "Contact Us", page: 'contact'});
 });
