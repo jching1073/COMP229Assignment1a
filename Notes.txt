@@ -1,4 +1,0 @@
-1) Make rename file to index.ts from index.js
-2) type tsc in powershell   This will make an index.js file
-3) press ctrl + shift + b use watch to monitor script
-4) change import http from 'http'; from const http = request('http)';
