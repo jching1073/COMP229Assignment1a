@@ -1,5 +1,9 @@
-#!/usr/bin/env node
-
+/*
+File Name index.ts
+By: Jerome Ching
+Student# 300817930
+Date: June 4, 2021
+*/
 /**
  * Module dependencies.
  */

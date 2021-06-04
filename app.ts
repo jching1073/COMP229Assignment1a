@@ -1,3 +1,9 @@
+/*
+File Name app.ts
+By: Jerome Ching
+Student# 300817930
+Date: June 4, 2021
+*/
 import createError from 'http-errors';
 import express from 'express';
 import path from 'path';

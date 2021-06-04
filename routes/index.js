@@ -1,4 +1,10 @@
 "use strict";
+/*
+File Name index.js
+By: Jerome Ching
+Student# 300817930
+Date: June 4, 2021
+*/
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
