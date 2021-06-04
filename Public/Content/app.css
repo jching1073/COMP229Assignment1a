@@ -1,7 +1,7 @@
 /*CSS Goes here*/
 .center {
     margin: auto;
-    width: 50%;
+    width: 70%;
     padding: 10px;
   }
   .centerIMG {
@@ -28,3 +28,20 @@
     height: auto;
     padding: 0 10px 0 0;
   }
+
+  .rightFloat {
+    float: right;
+  width: 400px;
+  height: auto;
+  padding: 20px 10px 0 0;
+}
+.leftFloat {
+    float: left;
+  width: 380px;
+  height: auto;
+  padding: 20px 10px 0 0;
+}
+.blockDiv{
+    display: block;
+
+}
